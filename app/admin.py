@@ -1,5 +1,5 @@
 from django.contrib import admin
-
+from reservation.models 
 # from app.models
 class reservationAdmin(admin.ModelAdmin):
     list_display =('room, 'date_start', 'phone')
