@@ -33,9 +33,9 @@ class Reservation(models.Model):
     persons = models.PositiveIntegerField(default=1)
 
     def __str__(self):
-        return f"data strrt {self.date_start}/ data end {self.date_end}/ date creation; {self.date_creation}"
+        return f"data str {self.date_start}/ data end {self.date_end}/ date creation; {self.date_creation}"
     class Meta:
         ordering = ['date_creation', 'date_start', 'date_end']            # Сортування за роком
         verbose_name = "Resvation"         # Назва в однині в адмінці
-        verbose_name_plural = "Rooms"  # Назва в множині
+        verbose_name_plural = "Reservations"  # Назва в множині
 
