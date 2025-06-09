@@ -1,7 +1,7 @@
 from django.shortcuts import render
 # from app.models import 
 # Create your views here.
-from app.models import TypeRoom, Room
+# from app.models import TypeRoom, Room
 
 def site(request):
     text = "hi from vives"
